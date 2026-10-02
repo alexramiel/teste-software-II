@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Curso de Enfermagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Curso de Enfermagem</h1>
+            <p class="subtitle">Área de Login</p>
+            <form id="formLogin">
+                <div class="input-group">
+                    <label>Email Cadastrado</label>
+                    <input type="email" id="loginEmail">
+                </div>
+                <div class="input-group">
+                    <label>Senha</label>
+                    <input type="password" id="loginSenha">
+                </div>
+                <button type="button" onclick="fazerLogin()">Entrar</button>
+                <p id="mensagemLogin"></p>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
