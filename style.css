@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background: linear-gradient(135deg, #4facfe, #00f2fe); height: 100vh; display: flex; align-items: center; justify-content: center; }
+.container { width: 100%; padding: 20px; }
+.card { background: white; max-width: 400px; margin: auto; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
+h1, .subtitle { text-align: center; }
+.input-group { margin-bottom: 15px; }
+.input-group input { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; margin-top: 5px; }
+
+/* Classes de validação de Teste de UI */
+input.erro { border: 2px solid red; }
+input.sucesso { border: 2px solid green; }
+
+button { width: 100%; padding: 12px; background: #4facfe; border: none; border-radius: 8px; color: white; cursor: pointer; }
+button:hover { background: #007bff; transform: scale(1.03); }
+#mensagem { text-align: center; margin-top: 15px; font-weight: bold; }
